@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-danger navbar-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Content Management Tool</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Editor</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="bg-primary rounded p-4">
+                    <h2 class="text-white">Upload Image</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="image" class="text-white">Choose an Image:</label>
+                            <input type="file" class="form-control-file" id="image">
+                        </div>
+                        <button type="submit" class="btn btn-light">Upload</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="bg-success rounded p-4">
+                    <h2 class="text-white">Add Content</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="content" class="text-white">Content:</label>
+                            <textarea class="form-control" id="content" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light">Add</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS scripts (jQuery and Popper.js are required) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
